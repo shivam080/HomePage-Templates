@@ -1,0 +1,759 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+  
+
+
+#second-nav{
+	top: 56px;
+	background: linear-gradient(0deg,rgba(0,0,0,.75),#000);
+}
+
+#first-nav{
+	background: linear-gradient(0deg,rgba(0,0,0,.75),#000);
+
+}
+
+.navbar-toggler i{
+	color: white;
+}
+
+.scroll-top{
+	background:  #b1040e !important;
+}
+
+.scroll-nav{
+	background-color: white;
+	color: black;
+}
+
+ .cr-pt{
+ 	cursor: pointer;
+ 	margin-left: 30px;
+ }
+
+.nav-space li a{
+	padding: .5555555556em 0;
+    margin: 0 .75em;
+    height: 2.6666666667em;
+    line-height: 1.6;
+    font-size: 1rem;
+    text-shadow: 0 0 30px rgb(0 0 0 / 70%);
+}
+
+.fnt-size{
+	font-weight: 600;
+}
+
+.top-bar:hover{
+	border-top: 2px solid white;
+	transition: all .25s ease-in-out;
+}
+
+.top-red-bar:hover{
+	background-color: #b1040e;
+}
+
+.top-bar-down:hover{
+	border-bottom: 2px solid white;
+}
+
+
+
+ /********************************* Banner Section******************************/
+
+ .banner-area{
+ 	min-width: calc(100% + 1px);
+    min-height: calc(100% + 1px);
+    overflow: hidden;
+    height: auto;
+	position: fixed;
+	background-image: url(../img/header/stanford.jpg);
+	background-size: cover;
+	background-position: center center;
+ }
+
+ .banner-area h2{
+ 	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 7rem;
+	color: #fff;
+	text-shadow: 0 0 30px rgb(0 0 0 / 70%);
+ }
+
+ 
+.explore-stan{
+	background-color: #b1040e;
+    bottom: 0;
+    padding: 10px 0 8px;
+    text-shadow: 0 1px 7px rgb(0 0 0 / 40%);
+    box-shadow: 0 -20px 60px rgb(0 0 0 / 40%);
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin: 0;
+    height: auto;
+    display: block;
+    z-index: 0;
+    
+}
+
+.explore-stan a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.explore-stan a:hover{
+	color: white;
+
+}
+
+.explore-stan a:hover i{
+	transform:translateY(10%);
+}
+
+	/********************* Content Section ********************/
+
+ #content-area {
+	width: 100%;
+	position: relative;
+	top: 660px;
+	
+}
+
+
+.content-area h2 {
+	
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+
+.wrapper{
+	padding-top: 37.5px;
+    padding-bottom: 67.5px;
+    background-color: #544948;
+}
+
+.st-button{
+	color: #fff;
+    background-color: #b1040e;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%);
+    width: 27.5rem;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: .4444444444em 1em .5555555556em;
+    text-align: center;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+    font-size: 1.25em;
+    margin-top: 3rem;
+
+}
+
+.st-button:hover{
+	color: white;
+	background-color:#910606;
+}
+
+
+.inner{
+	overflow: hidden;
+	margin: 0px 0px;
+	cursor: pointer;
+	
+}
+
+.inner img{
+	transition: all .3s ease-in-out;
+	padding: 0px 0px;
+}
+
+.inner:hover img{
+	transform: scale(1.1);
+}
+
+
+/************************* StanFord Today **********************/
+
+.first-text{
+	background-color: #fff;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.first-jumbo{
+	background: url(../img/stan-today/1.jpg);
+	min-width: calc(100% + 1px);
+    min-height: calc(100% + 1px);
+    background-size: cover;
+	overflow: hidden;
+	height: auto;
+	background-position: center center;
+	color: white;
+	height: 22rem;
+	cursor: pointer;
+}
+
+.content-jumbo{
+	padding-left: 1rem;
+	padding-right: 1rem;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8));
+	height: 8rem;
+	margin-top: 16rem;
+}
+
+.first-jumbo:hover{
+	transform: scale(1.01);
+	transition: all 0.3s ease-in-out;
+}
+
+
+
+.bg-white {
+	background-color: #fff;
+}
+
+.first-img-section{
+	background-color: #fff;
+}
+
+.second-jumbo{
+	background: url(../img/stan-today/6.jpg);
+	min-width: calc(100% + 1px);
+    min-height: calc(100% + 1px);
+    background-size: cover;
+	overflow: hidden;
+	height: auto;
+	background-position: center center;
+	height: 22rem;
+}
+
+.second-jumbo:hover{
+	transform: scale(1.01);
+	transition: all 0.3s ease-in-out;
+}
+
+.card-body a:hover i{
+	transform:translateX(13%);
+}
+
+.card-size-1{
+	width: 18rem;
+	height: 22rem;
+}
+
+.card-size-2{
+	width: 18rem;
+	height: 22rem;
+}
+
+.card-size-3{
+	width: 18rem;
+	height: 33rem;
+}
+
+.card-size-4{
+	width: 22.5rem;
+	height: 25rem;
+}
+
+.card-size-5{
+	width: 18rem;
+	height: 20rem;
+}
+
+.card-size-6{
+	width: 22.5rem;
+	height: 25rem;
+}
+
+.card-size-7{
+	width: 22.5rem;
+	height: 25rem;
+}
+
+.card-middle-box{
+	color: #fff;
+	position: absolute;
+	top: 14rem;
+	padding:13px 20px;
+	background-color: #2f2424;
+
+}
+
+.card-m-box{
+	display: block;
+	font-weight: bold;
+	text-align: center;
+}
+
+.card:hover{
+    transform: scale(1.01);
+    transition: all 0.3s ease-in-out;
+}
+
+.card-text:hover{
+	color: blue;
+	cursor: pointer;
+}
+
+.card-title-color{
+	color: #820000;
+}
+
+.bg-choco{
+	background-color:  #544948;
+}
+
+.more-button{
+	
+	padding-top: 3rem;
+	padding-bottom: 4rem;
+	
+}
+
+.stan-event{
+	padding-top: 3rem;
+	padding-bottom: 4rem;
+}
+
+
+/******************************** Seven Schools ***********************/
+
+
+.seven-school{
+	padding-bottom: 5rem;
+}
+
+.seven-list li:after{
+	border-right: 2px solid black;
+	position: relative;
+    content: "";
+    height: 75%;
+    right: -.1111111111em;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.right-bd{
+
+	text-decoration: none;
+	
+	margin-right: 10px;
+	margin-left: 10px;
+	font-weight: 500;
+	font-size: 1.25em;
+
+}
+
+.right-bd-end{
+	padding-left: 1rem;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1.25em;
+	border-right: none;
+}
+
+.right-bd:hover,.right-bd-end:hover{
+	border-bottom: 2px solid #34a8eb;
+}
+
+.acdemic-button{
+	color: #fff;
+    background-color: #b1040e;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%);
+    width: 27.5rem;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: .4444444444em 1em .5555555556em;
+    text-align: center;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+    font-size: 1.25em;
+
+}
+
+/******************************* First Blur Image *********************/
+
+.image {
+    position: relative;
+    width: 100%;
+}
+
+.image__img {
+    display: block;
+    width: 100%;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+
+.image__overlay--primary {
+    background: #111111af;
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+.image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+
+.content-text{
+	width: 70%;
+	text-align: center;
+}
+
+.first-thumbnail-round{
+	border:1px solid transparent;
+	border-radius: 50%;
+}
+
+
+.below-pd{
+	padding-bottom: 7rem;
+}
+
+.acdemic-button:hover{
+	color: white;
+	background-color:#910606;
+}
+
+
+/********************************* Research Section *********************/
+
+.research-sec{
+	width: 99.99%;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.second-text-scroll{
+	background: url(../img/text-hover-img/2.jpg);
+	background-size: cover;
+	overflow: hidden;
+	min-height: 650px;
+	background-position: center center;
+}
+
+.bg-pink{
+	background-color: #f9f6ef;
+}
+
+
+/************************************* Admission *********************/
+
+.third-text-scroll{
+	background: url(../img/admission/1.jpg);
+	background-size: cover;
+	overflow: hidden;
+	min-height: 650px;
+	background-position: center center;
+}
+
+.jumbo-content{
+	position: relative;
+	top: 590px;
+	background:linear-gradient(transparent,rgba(0,0,0,0.6) 20%);
+	width: 99%;
+	display: none;
+}
+
+.third-text-scroll:hover .jumbo-content{
+	display: block;
+}
+
+.last-one{
+	background: url(../img/stanford.jpg);
+	background-size: cover;
+	overflow: hidden;
+	min-height: 450px;
+	background-position: center center;
+}
+
+.social-link{
+	margin: 2rem 0;
+	padding: 1rem 0;
+	font-size: 2rem;
+	background-color: #dadde3;
+	cursor: pointer;
+}
+
+/********************************* Footer *********************/
+
+.footer-link li a{
+	color: black;
+	text-decoration: none;
+	margin-top: 1rem;
+}
+.footer-link{
+	
+	list-style: none;
+	padding-left: 0px;
+}
+
+.footer-link li a:hover{
+	color: blue;
+	border-bottom: 1px solid blue;
+}
+
+.footer-button{
+	box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%);
+	border: 1px solid #544948;
+    color: #544948;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: .5em 1em;
+    text-align: center;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+    display: block;
+    margin: 1rem 1rem;
+
+}
+
+.footer-button:hover{
+	color: #b1040e;
+	border:1px solid #b1040e;
+}
+
+
+/********************* Bottom Footer ***********************/
+
+
+.bottom-footer{
+	width: 100%;
+	min-height: 150px;
+	background-color: #8c1515;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+.brand-text{
+	width: 120px;
+	color: #fff;
+	font-size: 1.4em;
+	text-decoration: none;
+}
+
+.brand-text:hover{
+	color: #fff;
+}
+
+.nav-footer{
+	display: block;
+	font-weight: 600;
+	margin-top: -60px;
+}
+
+.nav-footer ul{
+	list-style-type: none;
+	margin-left: 100px;
+}
+
+.nav-footer ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding-left: 1rem;
+}
+
+.nav-footer ul li a:hover{
+	border-bottom: 1px solid white;
+}
+
+.copyright-text{
+	color: #fff;
+	padding-left: 150px;
+}
+
+
+	/************************************** Media Query ************************/
+
+@media screen and (max-width:992px){
+.top-bar:hover{
+	border-top: none;
+}
+
+.top-bar-down:hover{
+	border-bottom: none;
+}
+
+.card{
+		width: 100%;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+
+.card-middle-box{
+	top: 7rem;
+}
+
+#first-nav{
+	background-color: #b1040e;
+}
+.nav-collapse{
+	height: 500px;
+	overflow: auto;
+}
+}
+
+
+@media screen and (max-width: 576px) and (min-width: 370px){
+
+	.card{
+		width: 100%;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.banner-area h2{
+		font-size: 5rem;
+	}
+	.content-jumbo{
+		margin-top: 13.5rem;
+	}
+
+	.card-middle-box{
+		top: 18.5rem;
+	}
+	.seven-list li{
+		/*display: flex;
+		flex-direction: column;*/
+		position: relative;
+	    display: inline-block;
+	    padding: 0 .5555555556em;
+	}
+
+	.admission-text div{
+		margin-top: 1rem;
+	}
+
+	.st-button{
+		width: 22rem;
+	}
+	.acdemic-button{
+		width: 22rem;
+	}
+}
+
+@media screen and  (max-width: 370px){
+	body{
+		overflow-x: hidden;
+	}
+
+	.banner-area h2{
+		font-size: 4rem;
+	}
+	.card{
+		width: 100%;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.seven-list{
+		display: flex;
+		flex-direction: column;
+		overflow-x: hidden;
+	}
+
+	.content-jumbo{
+		margin-top: 13.8rem;
+	}
+
+	.image img{
+		height: 500px;
+	}
+
+	.image__overlay img{
+		
+	}
+
+	.image__overlay .context-text{
+		font-size: 2px;
+	}
+
+	.st-button{
+		width: 18rem;
+	}
+
+	.acdemic-button{
+		width: 18rem;
+	}
+
+	.card-middle-box{
+		top: 17rem;
+	}
+
+	.admission-text div{
+		margin-top: 1rem;
+	}
+
+	.footer-brand{
+		margin-bottom: 3rem;
+	}
+
+	.bottom-footer{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.nav-footer ul{
+		display: flex;
+		flex-direction: column;
+		margin-top: 2rem;
+		margin-left: -20px;
+	}
+
+	.nav-footer ul li a{
+		margin: 1rem;
+	}
+}

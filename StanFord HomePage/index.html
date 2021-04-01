@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stanford University</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-------------------------- Bootstrap Link---------------------->
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+</head>
+<body>
+
+	<!------------------------------- Header --------------------------->
+<header class="out-header">
+		<nav class="navbar navbar-expand-lg fixed-top bg-linear" id="first-nav"> 
+				<div class="container-fluid ">
+			        <h4 class="text-white cr-pt">Stanford University</h4>
+			        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					 <span><i class="fas fa-bars"></i></span>
+		    		</button>
+
+			        <div class="collapse navbar-collapse justify-content-end nav-collapse" id="navbarSupportedContent"> 
+			            <ul class="navbar-nav mb-2 mb-lg-0 nav-space">
+
+			                <li class="nav-item">
+				            	<a class="nav-link text-white top-bar" href="#">Students</a>
+				            </li>
+				            <li class="nav-item">
+				            	<a class="nav-link text-white top-bar" href="#">Faculty & Staff</a>
+				            </li><li class="nav-item">
+				            	<a class="nav-link text-white top-bar" href="#">Families</a>
+				            </li><li class="nav-item">
+				            	<a class="nav-link text-white top-bar" href="#">Visitors</a>
+				            </li>
+				            <li class="nav-item">
+				            	<a class="nav-link text-white top-bar" href="#">Alumni</a>
+				            </li>
+				            <li class="nav-item">
+				            	<a class="nav-link text-white top-bar" href="#">COVID Resources</a>
+				            </li>
+				             <li class="nav-item">
+				            	<a class="nav-link text-white top-red-bar" href="#"><i class="fas fa-search text-white"></i>
+		                             Search</a>
+				            </li>
+				        </ul>
+						<ul class="navbar-nav mb-2 mb-lg-0 nav-space fnt-size d-lg-none">
+
+			                <li class="nav-item">
+				            	<a class="nav-link text-white top-bar-down" href="#">News</a>
+				            </li>
+				            <li class="nav-item">
+				            	<a class="nav-link text-white top-bar-down" href="#">Events</a>
+				            </li><li class="nav-item">
+				            	<a class="nav-link text-white top-bar-down" href="#">Academics</a>
+				            </li><li class="nav-item">
+				            	<a class="nav-link text-white top-bar-down" href="#">Research</a>
+				            </li>
+				            <li class="nav-item">
+				            	<a class="nav-link text-white top-bar-down" href="#">Health Care</a>
+				            </li>
+				            <li class="nav-item">
+				            	<a class="nav-link text-white top-bar-down" href="#">Campus Life</a>
+				            </li>
+				             <li class="nav-item">
+				            	<a class="nav-link text-white top-bar-down" href="#">Admission</a>
+				            </li>
+				            <li class="nav-item">
+				            	<a class="nav-link text-white top-bar-down" href="#">About</a>
+				            </li>
+				        </ul>
+			        </div>
+			    </div> 
+			</nav>
+	
+				
+			<nav class="navbar navbar-expand-lg fixed-top bg-linear d-none d-lg-block" id="second-nav"> 
+				<div class="container-fluid ">
+			        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      		<span class="navbar-toggler-icon"></span>
+		    		</button>
+
+			        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent"> 
+			            <ul class="navbar-nav mb-2 mb-lg-0 nav-space fnt-size">
+
+			                <li class="nav-item">
+				            	<a class="nav-link text-white top-bar-down" href="#">News</a>
+				            </li>
+				            <li class="nav-item">
+				            	<a class="nav-link text-white top-bar-down" href="#">Events</a>
+				            </li><li class="nav-item">
+				            	<a class="nav-link text-white top-bar-down" href="#">Academics</a>
+				            </li><li class="nav-item">
+				            	<a class="nav-link text-white top-bar-down" href="#">Research</a>
+				            </li>
+				            <li class="nav-item">
+				            	<a class="nav-link text-white top-bar-down" href="#">Health Care</a>
+				            </li>
+				            <li class="nav-item">
+				            	<a class="nav-link text-white top-bar-down" href="#">Campus Life</a>
+				            </li>
+				             <li class="nav-item">
+				            	<a class="nav-link text-white top-bar-down" href="#">Admission</a>
+				            </li>
+				            <li class="nav-item">
+				            	<a class="nav-link text-white top-bar-down" href="#">About</a>
+				            </li>
+				        </ul>
+			        </div>
+			    </div> 
+			</nav>	
+
+</header>
+
+	<!--------------------------- Banner section ------------------------->
+
+	<div class="banner-area">
+		<h2 class="mx-auto">Stanford</h2>
+	</div>
+
+	<p class="explore-stan"><a href="#content-area">Explore Stanford  <span><i class="fas fa-chevron-down"></i></span></a></p>
+
+
+	<!------------------------- Content Section  --------------------------->
+
+<div id="content-area">
+		<div class="wrapper">
+			<header class="text-white text-center mt-4">
+				<h1>Stanford's Response to <br> COVID-19</h1>
+				<h5 class="mt-2">Stanford is implementing a phased recovery of university operations. We <br> are currently in <a class="text-white" href="#">Stage 2</a> of the restart process.</h5>
+			</header>
+			<div>
+				<a class="d-grid mx-auto st-button" href="">More about Stanford's Response to COVID-19</a>
+			</div>
+		</div>
+
+			<div class="container-fluid">
+				<div class="row">
+					<div class="first-text text-center">
+						<h1>Stanford Today</h1>
+						<h5>The latest news from Stanford</h5>
+					</div>
+				</div>
+			</div>
+		
+			<div class="container-fluid bg-white">
+				<div class="row first-img-section">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+						<div class="jumbotron first-jumbo shadow">
+							<div class="content-jumbo">
+								<h6>SCIENCE & TECHNOLOGY</h6>
+								<h4>Sea Trek: Stanford researcher's childhood dreams of space bend towards the ocean deep</h4>
+							</div>
+						</div>
+						
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+						<div class="card shadow card-size-1">
+							<div class="inner">
+						  		<img src="img/stan-today/2.jpg" class="card-img-top" alt="...">
+						  	</div>
+						  <div class="card-body">
+						    <h6 class="card-title card-title-color">SCIENCE & TECHNOLOGY</h6>
+						    <h5 class="card-text">Assessing regulatory fairness through machine learning</h5>
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+						<div class="card shadow card-size-1">
+						<div class="inner">
+						  	<img src="img/stan-today/3.jpg" class="card-img-top" alt="...">
+						</div>
+						  <div class="card-body">
+						    <h6 class="card-title card-title-color">SOCIAL SCIENCES</h6>
+						    <h5 class="card-text">Q&A: Justing Grimmer on allegations of election fraud in 2020 presidential election</h5>
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-5 bg-white">
+					<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+						<div class="card shadow card-size-2">
+						<div class="inner">
+						  	<img src="img/stan-today/4.jpeg" class="card-img-top" alt="...">
+						</div>
+						  <div class="card-body">
+						    <h6 class="card-title card-title-color">SCIENCE & TECHNOLOGY</h6>
+						    <h5 class="card-text">How much do humans influence Earth's water levels?</h5>
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+						<div class="card shadow card-size-2">
+						<div class="inner">
+						  	<img src="img/stan-today/5.jpg" class="card-img-top" alt="...">
+						</div>
+						  <div class="card-body">
+						    <h6 class="card-title card-title-color">SCIENCE & TECHNOLOGY</h6>
+						    <h5 class="card-text">The 2021 AI Index: Major growth despite the pandemic</h5>
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-12 inner">
+						<div class="jumbotron second-jumbo shadow">
+							<div class="content-jumbo text-white">
+								<h6>MEDICINE</h6>
+								<h4>Over first year of pandemic, confronting uncertainty with action at Stanford Medicine</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="more-button bg-white">
+				<a class="d-grid mx-auto st-button" href="">More Stanford News</a>
+			</div>
+
+			<div class="container-fluid bg-choco stan-event">
+				<div class="row text-center text-white">
+					<h1>StanFord Events</h1>
+					<h5>What's happening on campus</h5>
+				</div>
+
+				<div class="row mt-5">
+					<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+						<div class="card shadow card-size-3">
+							<div class="inner">
+						  		<img src="img/stan-event/1.jpg" class="card-img-top" alt="...">
+						  	</div>
+						  <div class="card-body">
+						  	<div class="card-middle-box">Mar <span class="card-m-box">10</span>
+
+						  	</div>
+						    <h6 class="card-title card-title-color">SEMINAR</h6>
+						    <h6 class="card-text">Global Energy Dialogues - Legacy of A Giant: Revenue Neutral Carbon Tax and a Passoin for Innovation </h6> <br> 8:30 AM
+
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+						<div class="card shadow card-size-3">
+							<div class="inner">
+						  		<img src="img/stan-event/2.jpg" class="card-img-top" alt="...">
+						  	</div>
+						  <div class="card-body">
+						  	<div class="card-middle-box">Mar <span class="card-m-box">11</span>
+
+						  	</div>
+
+						    <h6 class="card-title card-title-color">SEMINAR</h6>
+						    <h6 class="card-text">Ghostly Pasts and Speculative Futures</h6> <br> 9:00 AM
+
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+						<div class="card shadow card-size-3">
+							<div class="inner">
+						  		<img src="img/stan-event/3.jpg" class="card-img-top" alt="...">
+						  	</div>
+						  <div class="card-body">
+						  	<div class="card-middle-box">Mar <span class="card-m-box">11</span>
+
+						  	</div>
+
+						    <h6 class="card-title card-title-color">LECTURE</h6>
+						    <h6 class="card-text">Reflections on U.S. - China Relations</h6><br> 11:30 AM
+						    
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+						<div class="card shadow card-size-3">
+							<div class="inner">
+						  		<img src="img/stan-event/4.jpg" class="card-img-top" alt="...">
+						  	</div>
+						  <div class="card-body">
+						  	<div class="card-middle-box">Mar <span class="card-m-box">11</span>
+
+						  	</div>
+
+						    <h6 class="card-title card-title-color">LECTURE</h6>
+						    <h6 class="card-text">Iran's Experiment with Parliamentry Government</h6><br> 10:00 AM
+						    
+						  </div>
+						</div>
+					</div>
+
+				</div>
+
+					<div class="more-button">
+						<a class="d-grid mx-auto st-button" href="">More Stanford Events</a>
+					</div>
+			</div>
+
+
+			<div class="container-fluid bg-white stan-event">
+				<div class="row text-center">
+					<h1>Acedemics</h1>
+					<h4 class="mt-2">Preparing students to make meaningful contribution to society as <br> engaged citizens and leaders in a complex world</h4>
+				</div>
+
+				<div class="row mt-5">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+						<div class="card border-0 card-size-4">
+							
+							  	<img src="img/academic/1.jpg">
+							  <div class="card-body">
+
+							    <h5 class="card-title">Undergraduate Education</h5>
+							    <p class="card-text">Rich learning experiences that provide a broad liberal arts foundation and deep subject-area expertise</p>
+							    <a href="#" class="card-link text-decoration-none">Undergraduate Education <i class="fas fa-chevron-right"></i></a>
+							  </div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+						<div class="card border-0 card-size-4">
+								<img src="img/academic/2.jpg">
+							  <div class="card-body">
+						       <h5 class="card-title">Graduate Education</h5>
+							    <p class="card-text">Unsurpassed opportunities to participate in the advancement of entire fields of knowledge</p>
+							    <a href="#" class="card-link text-decoration-none">Graduate Education <i class="fas fa-chevron-right"></i></a>
+							  </div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+						<div class="card border-0 card-size-4">
+									<img src="img/academic/3.jpg">
+							
+							  <div class="card-body">
+							  	<h5 class="card-title">Lifelong Learning</h5>
+							   
+							    <p class="card-text">Continuing adult education, executive and professional programs, and programs for K-12 students</p>
+							    <a href="#" class="card-link text-decoration-none">Program for Lifelong Learning <i class="fas fa-chevron-right"></i></a>
+							  </div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="container-fluid bg-white seven-school">
+				<div class="text-center ">
+					<h3>Seven schools in which to pursue your passions </h3>
+					<ul class="d-flex list-unstyled justify-content-center seven-list">
+						<li><a class="right-bd" href="">Medicine</a></li>
+						<li><a class="right-bd" href="">Law</a></li>
+						<li><a class="right-bd" href="">Humanities & Science</a></li>
+						<li><a class="right-bd" href="">Engineering</a></li>
+						<li><a class="right-bd" href="">Education</a></li>
+						<li><a class="right-bd" href="">Earth</a></li>
+						<li><a class="right-bd-end" href="">Business</a></li>
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="below-pd bg-white">
+					<a class="d-grid mx-auto acdemic-button" href="">More About Academics</a>
+			</div>
+
+
+			<!------------------------ First Blur Image -------------------->
+
+
+			<div class="image">
+			    <img class="image__img" src="img/text-hover-img/1.jpg" alt="">
+			    <div class="image__overlay image__overlay--primary">
+			        <img class="first-thumbnail-round" src="img/text-hover-img/1thumbnail.jpg">
+			        <div class="content-text">
+				        <h3>
+				            “Here at Stanford, people are constantly in conversation with one another. During my time as the director of the program in Feminist, Gender, and Sexuality Studies, I saw how faculty and students in different disciplines were incredibly engaged with their material and with one another. People are very intellectually generous here.”
+				        </h3>
+				        <h4 class="pt-3" >Heather Hadlock</h4>
+						<h6><i>Associate Professor of Music</i></h6>
+						<a class="text-white text-decoration-none" href=""> More about Heather <i class="fas fa-chevron-right"></i></a>
+					</div>
+			    </div>
+			</div>
+			
+		<!---------------------------- Research --------------------->
+
+			<div class="container-fluid bg-white pt-5">
+				<div class="row text-center">
+					<h1 class="pt-5">Research</h1>
+					<h4 class="mt-2 pb-5">A culture of collaboration that drives innovative discoveries vital to our <br> world, our health and our intellectual life</h4>
+				</div>
+			</div>
+
+			<div class="container-fluid bg-white">
+				<div class="row text-center research-sec">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+						<h2>18 Institutes</h2>
+						<h5>cross interdisciplinary boundaries</h5>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+						<h2>20 Libraries</h2>
+						<h5>hold over 9.5 million volumes</h5>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+						<h2>$1.93 Billion</h2>
+						<h5>annual research budget</h5>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="container-fluid bg-white">
+				<div class="row text-center pt-5">
+					<h1>Stanford research for a better world</h1>
+				</div>
+
+				<div class="row mt-4">
+					<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+						<div class="card shadow card-size-5">
+							<div class="inner">
+						  		<img src="img/research/1.jpg" class="card-img-top" alt="...">
+						  	</div>
+						  <div class="card-body">
+						    <h6 class="card-title card-title-color">HUMANITIES</h6>
+						    <h6 class="card-text">Examining systemic racism, advancing racial equity</h6>
+
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+						<div class="card shadow card-size-5">
+							<div class="inner">
+						  		<img src="img/research/2.jpg" class="card-img-top" alt="...">
+						  	</div>
+						  <div class="card-body">
+						    <h6 class="card-title card-title-color">SCIENCE & TECHNOLOGY</h6>
+						    <h6 class="card-text">Understanding wildfire season</h6>
+
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+						<div class="card shadow card-size-5">
+							<div class="inner">
+						  		<img src="img/research/3.jpg" class="card-img-top" alt="...">
+						  	</div>
+						  <div class="card-body">
+						    <h6 class="card-title card-title-color">SCIENCE & TECHNOLOGY</h6>
+						    <h6 class="card-text">what it's like to be a chemist</h6>
+						    
+						  </div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+						<div class="card shadow card-size-5">
+							<div class="inner">
+						  		<img src="img/research/4.jpg" class="card-img-top" alt="...">
+						  	</div>
+						  <div class="card-body">
+						    <h6 class="card-title card-title-color">TEACHING & STUDENTS</h6>
+						    <h6 class="card-text">Back to school: Applying Stanford research to student success</h6>
+						    
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="below-pd bg-white pt-5">
+					<a class="d-grid mx-auto acdemic-button" href="">More About Research</a>
+			</div>
+
+
+			<!-------------------- Health Care --------------------->
+
+			<div class="container-fluid bg-white">
+				<div class="row text-center pt-5">
+					<h1>Health Care</h1>
+					<h5 class="pt-3">Caring for people and advancing human health through innovative <br> research, education and health care</h5>
+				</div>
+
+				<div class="row mt-5">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+						<div class="card border-0 card-size-6">
+							  <img src="img/healthcare/1.jpg">
+							  <div class="card-body">
+
+							    <h5 class="card-title">Stanford Health Care</h5>
+							    <p class="card-text">Our multidisciplinary approach delivers unparalleled care for each patient’s unique needs, coordinating expertise with the most advanced technology.</p>
+							    <a href="#" class="card-link text-decoration-none">Stanford Health Care <i class="fas fa-chevron-right"></i></a>
+							  </div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+						<div class="card border-0 card-size-6">
+							<img src="img/healthcare/2.jpg">
+
+							  <div class="card-body">
+						       <h5 class="card-title">Stanford Medicine</h5>
+							    <p class="card-text">Comprised of our biomedical research, education and clinical enterprises, Stanford Medicine is leading a worldwide revolution in precision health.</p>
+							    <a href="#" class="card-link text-decoration-none">Stanford Medicine <i class="fas fa-chevron-right"></i></a>
+							  </div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+						<div class="card border-0 card-size-6">
+							<img src="img/healthcare/3.jpg">
+
+							  <div class="card-body">
+							  	<h5 class="card-title">Stanford Children's Health</h5>
+							   
+							    <p class="card-text">The only health care network in the Bay Area – and one of the few in the country – exclusively dedicated to pediatric and obstetric care</p>
+							    <a href="#" class="card-link text-decoration-none">Stanford Children's Health <i class="fas fa-chevron-right"></i></a>
+							  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+				<div class="below-pd bg-white pt-5">
+					<a class="d-grid mx-auto acdemic-button" href="">More About Health Care</a>
+				</div>
+
+
+				<!----------------- Second Blur image  ---------------------->
+
+				<div class="image">
+			    <img class="image__img" src="img/text-hover-img/2.jpg" alt="">
+			    <div class="image__overlay image__overlay--primary">
+			        <img class="first-thumbnail-round" src="img/text-hover-img/2ndthumbnail.jpg">
+			        <div class="content-text">
+				        <h3>
+				            “Move about the world and make as much of a difference and as much change as you can.”
+				        </h3>
+				        <h4 class="pt-3" >Alma Flores-Pérez</h4>
+						<h6><i>Class of 2019, Linguistics and Iberian and Latin American Cultures</i></h6>
+						<a class="text-white text-decoration-none" href=""> More about Alma <i class="fas fa-chevron-right"></i></a>
+					</div>
+			    </div>
+			</div>
+
+
+			<!-------------------------- Campus Life  -------------------->
+
+			<div class="container-fluid bg-white">
+				<div class="row text-center pt-5">
+					<h1>Campus Life</h1>
+					<h5 class="pt-3">A thriving community of creative and accomplished people from around <br> the world</h5>
+				</div>
+
+				<div class="row mt-5">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+						<div class="card border-0 card-size-7">
+							  <img src="img/campus-life/1.jpg">
+							  <div class="card-body">
+
+							    <h5 class="card-title">Student Life</h5>
+							    <p class="card-text">A residential campus with diverse housing, exceptional dining, health care and over 600 student organizations</p>
+							    <a href="#" class="card-link text-decoration-none">Student Affairs <i class="fas fa-chevron-right"></i></a>
+							  </div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+						<div class="card border-0 card-size-7">
+							<img src="img/campus-life/2.jpg">
+
+							  <div class="card-body">
+						       <h5 class="card-title">Arts & Culture</h5>
+							    <p class="card-text">A rich tradition of fostering creativity and a vibrant arts district on campus</p>
+							    <a href="#" class="card-link text-decoration-none">Stanford Arts <i class="fas fa-chevron-right"></i></a>
+							  </div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+						<div class="card border-0 card-size-7">
+							<img src="img/campus-life/3.jpg">
+
+							  <div class="card-body">
+							  	<h5 class="card-title">Athletics & Fitness</h5>
+							   
+							    <p class="card-text">36 varsity sports, 33 club sports and state-of-the-art recreational facilities and fitness programs</p>
+							    <a href="#" class="card-link text-decoration-none">Go Stanford <i class="fas fa-chevron-right"></i></a>
+							  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+				<div class="below-pd bg-white pt-5">
+					<a class="d-grid mx-auto acdemic-button" href="">More About Campus Life</a>
+				</div>
+
+			<div class="container-fluid bg-pink pt-5">
+				<div class="row text-center">
+					<h1>Admission</h1>
+					<h5 class="pt-3">An extraordinary freedom of opportunity—to explore, to collaborate and to <br> challenge yourself</h5>
+				</div>
+				<div class="row">
+					<div class="jumbotron bg-pink mt-5 third-text-scroll">
+						<div class="jumbo-content text-white">
+						    <h6>ADMIT WEEKEND</h6> 
+						    <p>Admits and their families walk to attend Master Class sessions where they gather to meet and learn from Stanford faculty.</p>
+					</div>
+				</div>
+				<div class="row mt-5 admission-text">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+						<h4>Explore the possibilities of a Stanford education as you map out your college journey.</h4>
+						<h6 class="pt-2">We look for distinctive students who exhibit an abundance of energy and curiosity in their classes, activities, projects, research and lives.</h6>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-12">
+						<h4>Stanford meets the full financial need of every admitted undergrad who qualifies for assistance.</h4>
+						<h6 class="pt-2">Nearly 70% of undergrads receive financial aid. Generally, tuition is covered for families with incomes below $150,000.</h6>
+					</div>
+				</div>
+				<div class="row">
+					<div class="below-pd pt-5">
+					<a class="d-grid mx-auto acdemic-button" href="">More About Admission</a>
+					</div>
+				</div>
+			</div>
+
+			<!---------------------------------------- About StanFord  ----------------->
+
+			<div class="container-fluid bg-white">
+				<div class="row text-center">
+					<h1>About Stanford</h1>
+					<h4 class="pt-2">A place for learning, discovery, innovation, expression and discourse</h4>
+				</div>
+				<div class="row text-center pt-5">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-12">
+						<h4>Opened in</h4>
+						<h2>1891</h2>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center">
+						<h4>Students</h4>
+						<h2>15,157</h2>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center">
+						<h4>Faculty</h4>
+						<h2>2,279</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="below-pd pt-5">
+					<a class="d-grid mx-auto acdemic-button" href="">More About Stanford</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="jumbotron mt-5 last-one">
+
+					</div>
+				</div>
+			</div>
+
+			<!----------------------- Social Media bar  -------------->
+
+			<div class="container-fluid bg-white">
+				<div class="row">
+					<div class="social-link text-end">
+							<span><i class="fab fa-facebook-square"></i></span>
+							<span><i class="fab fa-twitter"></i></span>
+							<span><i class="fab fa-instagram"></i></span>
+							<span><i class="fab fa-youtube"></i></span>
+							<span><i class="fab fa-apple"></i></span>
+					</div>
+				</div>
+			</div>
+
+			<!------------------------ Footer ------------------------->
+
+			<div class="container-fluid bg-white">
+				<div class="row">
+					<div class="col-lg-2 col-md-4 col-sm-12 col-12">
+						<h5 class="card-title-color">SCHOOLS</h5>
+						<ul class="footer-link">
+							<li><a href="">Business</a></li>
+							<li><a href="">Earth,Energy & Environmental Sciences</a></li>
+							<li><a href="">Education</a></li>
+							<li><a href="">Engineering</a></li>
+							<li><a href="">Humanities & Science</a></li>
+							<li><a href="">Law</a></li>
+							<li><a href="">Medicine</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-12 col-12">
+						<h5 class="card-title-color">DEPARTMENTS</h5>
+						<ul class="footer-link">
+							<li><a href="">Departments A-Z</a></li>
+							<li><a href="">Interdisciplinary Programs</a></li>
+						</ul>
+						<h5 class="card-title-color">RESEARCH</h5>
+						<ul class="footer-link">
+							<li><a href="">Research Centers A-Z</a></li>
+							<li><a href="">Interdisciplinary Research</a></li>
+							<li><a href="">Libraries</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-12 col-12">
+						<h5 class="card-title-color">HEALTH CARE</h5>
+						<ul class="footer-link">
+							<li><a href="">Stanford Health Care</a></li>
+							<li><a href="">Stanford Children's Health</a></li>
+						</ul>
+						<h5 class="card-title-color">ONLINE LEARNING</h5>
+						<ul class="footer-link">
+							<li><a href="">Standard Online</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-12 col-12">
+						<h5 class="card-title-color">ABOUT STANFORD</h5>
+						<ul class="footer-link">
+							<li><a href="">Facts</a></li>
+							<li><a href="">History</a></li>
+							<li><a href="">Accrediation</a></li>
+						</ul>
+						<h5 class="card-title-color">ADMISSION</h5>
+						<ul class="footer-link">
+							<li><a href="">Undergraduate</a></li>
+							<li><a href="">Graduate</a></li>
+							<li><a href="">Financial Aid</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-12 col-12">
+						<h5 class="card-title-color">RESOURCES</h5>
+						<ul class="footer-link">
+							<li><a href="">A-Z Index</a></li>
+							<li><a href="">Campus Map</a></li>
+							<li><a href="">Community Engagement</a></li>
+							<li><a href="">Directory</a></li>
+							<li><a href="">Stanford Profiles</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-12 col-12">
+						<ul class="list-unstyled">
+							<li><a class="footer-button" href="">Applying</a></li>
+							<li><a class="footer-button" href="">Visiting</a></li>
+							<li><a class="footer-button" href="">Giving</a></li>
+							<li><a class="footer-button" href="">Careers</a></li>
+							<li><a class="footer-button" href="">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+				<!------------------ Bottom Footer ------------------->
+
+			<section class="bottom-footer">
+				<div class="footer-brand">
+					<a href="" class="brand-text"><b>Stanford</b><br>University</a>
+				</div>
+					<nav class="nav-footer">
+						<ul class="d-flex">
+							<li><a href=""> Stanford Home</a></li>
+							<li><a href=""> Map & Directions</a></li>
+							<li><a href=""> Search Stanford</a></li>
+							<li><a href=""> Emergency Info</a></li>
+						</ul>
+						<ul class="d-flex">
+							<li><a href="">Terms of Use</a></li>
+							<li><a href="">Privacy</a></li>
+							<li><a href="">Copyright</a></li>
+							<li><a href="">Trademarks</a></li>
+							<li><a href="">Non-Discrimination</a></li>
+							<li><a href="">Accessibility</a></li>
+						</ul>
+					</nav>
+					<div class="copyright-text">
+						<p>© Stanford University. Stanford, California 94305.</p>
+					</div>
+			</section>
+	
+</div>
+
+
+
+
+	
+
+	<!------------------------------- Nav bar scroll effect ---------------------->
+ <script>
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("first-nav");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+		  if (window.pageYOffset >= sticky) {
+		    navbar.classList.add("scroll-top")
+		  } else {
+		    navbar.classList.remove("scroll-top");
+		  }
+		}
+</script> 
+
+
+	<!----------------------------------- Bootstrap Script ------------------------>
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<!-------------------------------------- Font Awesome Script  ----------------------->
+
+
+		<script src="https://kit.fontawesome.com/7bce945e37.js" crossorigin="anonymous"></script>
+</body>
+</html>

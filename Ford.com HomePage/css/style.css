@@ -1,0 +1,374 @@
+body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: arial,helvetica,sans-serif;
+}
+
+.fa-chevron-circle-right:hover{
+	background-color: white;
+	border:1px solid white;
+	border-radius: 50%;
+}
+
+/********************Top bar********************/
+
+#top-nav-bar{
+	background: #e6ede9;
+	height: 3rem;
+}
+
+.verical-separator{
+	border-left:1px dotted #939995;
+	height:40px
+}
+
+/*.navbar-nav li{
+    list-style: none;
+    padding-left: 0;
+}*/
+
+
+/************************* Something For Everyone **********************/
+
+#n-border{
+	border:none;
+
+}
+
+#sweeten{
+	min-height: 12rem;
+	font-size: 1.2rem;
+}
+
+.img-jumbo{
+	background-image: url('../img/WhereYou/third.png');
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.all-vehicle{
+	background-color: rgb(2, 118, 179);
+    color: rgb(255, 255, 255);
+    margin: 2rem auto 0;
+    border: 1px solid #0276b3;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 50px;
+    width: 270px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.all-vehicle:hover{
+	background-color: white;
+
+}
+
+/************************** Slider ***************************/
+.carousel-control-next-icon{
+	border: 1px solid rgba(85,85,85,0.8);
+	border-radius: 0;
+	padding: 1.5rem;
+	background-color: rgba(85,85,85,0.8);
+}
+
+.carousel-control-prev-icon{
+	border: 1px solid rgba(85,85,85,0.8);
+	border-radius: 0;
+	padding: 1.5rem;
+	background-color: rgba(85,85,85,0.8);
+
+}
+
+/*#car-left{
+	left:-77px;
+}
+
+#car-right{
+	right: -77px;
+}
+*/
+/*
+.carousel-control-next-icon:hover{
+	background-color: #e3e5e8;
+	border: 1px solid blue;
+}
+
+.carousel-control-prev-icon:hover{
+	background-color: #e3e5e8;
+	border: 1px solid blue;
+}
+*/
+.lm-text{
+	float: left;
+	margin-top: 10rem;
+	left: 5%;
+}
+
+.car-cap{
+	position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 7%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    top: 0;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+    
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.first-text{
+	margin-left: -190px;
+	font-size: 42px;
+	white-space: pre-line;
+	font-weight: 500;
+    line-height: 1.1;
+}
+
+.sc-text{
+	float: left;
+	margin-left: -145px;
+	white-space: pre-line;
+    line-height: 1.1;
+    cursor: pointer;
+}
+
+.th-text{
+	float: left;
+	margin-left: -145px;
+	white-space: pre-line;
+    line-height: 1.1;
+    cursor: pointer;
+}
+
+.arrow-border{
+	border:1px solid white;
+	border-radius: 50%;
+
+}
+
+
+
+
+
+.n-margin{
+	margin-left: -12px;
+}
+/************************** Zoom section **********************/
+
+
+.inner{
+	overflow: hidden;
+	margin: 0px 0px;
+	cursor: pointer;
+	
+}
+
+.inner img{
+	transition: all .3s ease-in-out;
+	padding: 0px 0px;
+}
+
+.inner:hover img{
+	transform: scale(1.1);
+}
+/****************************** Media Query ***************************/
+
+@media screen and (max-width: 990px) {
+  #top-nav-bar {
+    display: none;  
+	}
+
+#mob-hidden{
+	display: none;
+}
+
+.footer-flex{
+	flex-direction: column;
+	}
+
+
+}
+
+
+.blue-bg{
+	background: rgba(6,120,188,1.0);
+}
+.img-text{
+	position: relative;
+    bottom: 0;
+    width: 100%;
+    min-height: 50px;
+}
+
+.label-container{
+	width: 100%;
+	padding: 1.5%;
+	display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.sc-img-text{
+	position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.sc-label-container{
+	width: 100%;
+	font-size: 2rem;
+}
+
+.sc-circle-space{
+	margin-left: 80px;
+	font-size: 50px;
+
+}
+
+.circle-space{
+	margin-left: 80px;
+	font-size: 25px;
+}
+/***************************** Airbag Recall **********************/
+
+.air-text{
+	color: rgb(217, 46, 20);
+	font-family: arial,helvetica,sans-serif;
+}
+
+.ln-text{
+	color: rgb(255, 255, 255);
+	width: 270px;
+    background-color: rgb(217, 46, 20);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    min-height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.ln-text:hover{
+	background-color: white;
+	color: rgb(217, 46, 20);
+	border:1px solid rgb(217, 46, 20);
+}
+
+#collapseExample{
+	height: 130px;
+	overflow-y: scroll;
+}
+/********************* California Residents *********************/
+
+#do-not{
+	background-color: rgb(2, 118, 179);
+    color: rgb(255, 255, 255);
+    margin: 2rem auto 2rem;
+    border: 1px solid #0276b3;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 50px;
+    min-width: 270px;
+    width: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#do-not:hover{
+	background-color: white;
+	color: rgb(2, 118, 179);
+}
+/*************************** Search Section **************************/
+
+.search-color{
+	background-color: #333;
+	border:none;
+	font-size: 1.5rem;
+	margin-left: 0.7rem;
+}
+
+.float-rg{
+	float: right;
+	text-align: right;
+	cursor: pointer;
+}
+
+
+
+/**************************** Footer ***************/
+
+.ft-color{
+	color: #807e7a
+}
+
+.ft-color:hover{
+	color: white;
+}
+
+.footer-bag{
+	background-color: #242424; 
+	min-height: 475px; 
+	padding-top: 25px; 
+	padding-bottom: 90px;
+}
+
+/************************** Social Section *****************/
+
+.bg-social{
+	background-color: #092A46; 
+	min-height: 7rem;
+	color: #37a9e8;
+}
+
+.copyright-text{
+	color: #555;
+}
+
+.bottom-footer{
+	min-height: 70px;
+}
+
+.footer-flex{
+	display: flex;
+}
